@@ -1,0 +1,74 @@
+<!-- 개인 회원가입 페이지 -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>개인회원가입</title>
+
+   <link href = "./signup.css" rel = "stylesheet"/>
+   <script src = "./signup.js"></script>
+</head>     
+   <body>
+      <form name = 'frm' action="/signup_ok.html" method="post">
+       <div class="container">
+        <div class="insert">
+        
+        <table>
+        <caption><h2>개인회원가입</h2></caption>
+        <tr>
+            <td class="col1">아이디</td>
+            <td class="col2">
+                <input id="idNumber" type="text" class = "id" name="id" maxlength="10" placeholder="아이디를 입력해주세요" value="">
+                &nbsp;
+                <input  class='but1' type="button" value="중복확인" onclick="idCheck()">
+            </td>
+        </tr>
+        <tr>
+            <td class="col1">이름</td>
+            <td class="col2"><input type="text" name="name" maxlength="10"></td>
+        </tr>
+        <tr>
+            <td class="col1">비밀번호</td>
+            <td class="col2">
+                <input type="password" name="pwd" id = "pwd" minlength="8" maxlength="15" 
+                placeholder="비밀번호를 입력해주세요" onchange="check_pw()">
+                <p>※ 비밀번호는 <span class="num1"> 8 ~ 15자리</span>까지 입력이 가능합니다.</p>
+            </td>
+        </tr>
+        <tr>
+            <td class="col1">비밀번호 확인</td>
+            <td class="col2">
+                <input type="password" name="pwdCheck" id = "pwdCheck" minlength="8" maxlength="15"
+                onchange="check_pw()">
+                &nbsp;&nbsp;
+                <span id = "check" class="num2"></span>
+
+            </td>
+            
+        </tr>
+        <tr>
+            <td class="col1">이메일</td>
+            <td class="col2">
+                <input id = "emailNumber" type="text" name="email" id = "email" placeholder="이메일을 입력해주세요" value="">
+
+                &nbsp;
+                <input class='but2' type="button" value="이메일 중복확인" onclick="emailCheck()">
+            </td>
+        </tr>
+        </table>
+      </div>
+      <div class="create">
+        
+            <input class="but3" type="button" value="가입취소" onclick="MainpageGO()">
+            &nbsp;&nbsp;
+            <input class="but4" type="button" value = "회원가입" onclick="formCheck(this.form)">
+      </div>
+      </div>
+      </form>
+
+     </body>
+    </html>

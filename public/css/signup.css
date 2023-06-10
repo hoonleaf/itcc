@@ -1,0 +1,143 @@
+div.create{
+width: 100%;
+text-align: center;
+padding: 10px;
+margin: auto;
+}
+
+table{
+height: 300px;
+width: 100%;
+border-top: 5px solid lightblue;
+margin-right: auto;
+margin-left: auto;
+
+}
+
+input{
+   line-height: 20px;
+   border-radius: 3px;
+   border: 1px solid black;
+   font-size: 12px;
+}
+
+button {
+   line-height: 20px;
+   border-radius: 3px;
+   border: 1px solid black;
+   font-size: 12px;
+}
+
+body{
+   width: 50%;
+   border: 10px solid lightblue;
+   border-radius: 30px;
+   background-color: white;
+
+}
+
+html{
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 100vh;
+   background-color: aliceblue;
+}
+
+
+td{
+border-bottom: 1px solid lightblue;
+
+}
+
+caption{
+text-align: center;
+line-height: 50px;
+}
+
+.col1 {
+background-color: #e8e8e8;
+padding: 10px;
+text-align: center;
+font-weight: bold;
+font-size: 0.8em;
+}
+
+.col2 {
+text-align: left;
+padding: 30px;
+}
+
+.but1 {
+height: 25px;
+width: 80px;
+color: white;
+background-color: black;
+border-color: black;
+}
+
+.but2 {
+height: 25px;
+width: 120px;
+color: white;
+background-color: black;
+border-color: black;
+}
+
+
+.but3{
+height: 40px;
+width: 150px;
+background-color: white;
+border: 5px solid lightblue;
+font-size: 15px;
+}
+
+.but4{
+height: 40px;
+width: 150px;
+background-color: white;
+border: 5px solid lightblue;
+font-size: 15px; 
+}
+
+.but1:hover {
+background-color: #b9b9b9;
+color: black;
+border: 2px solid black;
+}
+
+
+.but2:hover {
+   background-color: #b9b9b9;
+   color: black;
+   border: 2px solid black;
+}
+
+.but3:hover {
+background-color: black;
+color: white;
+border: 2px solid black;
+}
+
+.but4:hover {
+background-color: black;
+color: white;
+border: 2px solid black;
+}
+
+p{
+font-size: 0.7em;
+
+}
+
+
+.num1{
+color: red;
+}
+
+.num2{
+   font-size: 12px;
+}
+
