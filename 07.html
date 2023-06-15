@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>기출문제</title>
+    <link rel="stylesheet" href="./02.css">
+</head>
+<body>
+    
+    <div class="board_wrap">
+        <div class="board_title">
+            <strong>기출문제(1문제씩)</strong>
+            <form>
+                <select name="change" class="pl" onchange="window.open(this.value);">
+                    <option>선택</option>
+                    <option value="02.html">1과목 : 소프트웨어 설계</option>
+                    <option value="07.html"selected>2과목 : 소프트웨어 개발</option>
+                    <option value="12.html">3과목 : 데이터베이스 구축</option>
+                    <option value="16.html">4과목 : 프로그래밍 언어 활용</option>
+                    <option value="21.html">5과목 : 정보시스템 구축관리</option>
+                </select>
+              </form>
+        </div>
+        <div class="board_view_wrap">
+            <div class="board_view">
+                <div class="title">
+                    6번문제:통합 테스트(Integration Test)와 관련한 설명으로 틀린 것은?
+                </div>
+                
+                <div class="cont">
+                   <button onclick="location.href = '08.html' ">1번</button> 시스템을 구성하는 모듈의 인터페이스와 결합을 테스트하는 것이다.<br><br>
+                   <button onclick="location.href = '08.html' ">2번</button> 하향식 통합 테스트의 경우 넓이 우선(Breadth First) 방식으로 테스트를 할 모듈을 선택할 수 있다.<br><br>
+                   <button onclick="location.href = '08.html' ">3번</button> 상향식 통합 테스트의 경우 시스템 구조도의 최상위에 있는 모듈을 먼저 구현하고 테스트한다.<br><br>
+                   <button onclick="location.href = '08.html' ">4번</button> 모듈 간의 인터페이스와 시스템의 동작이 정상적으로 잘되고 있는지를 빨리 파악하고자 할 때 상향식 보다는 하향식 통합 테스트를 사용하는 것이 좋다.<br><br><br><br>
+                    <button id="bt01" onclick="location.href = 'answer.html' ">채점</button>
+                </div>
+        
+        <div class="bt_wrap">
+            <a href="06.html" class="on">이전 문제</a>
+            <a href="08.html">다음 문제</a>
+        </div>
+
+        </div>
+    </div>
+</body>
+</html>

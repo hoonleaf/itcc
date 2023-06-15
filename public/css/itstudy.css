@@ -188,13 +188,13 @@ a{
 }
 
 .slider__btn button.prev {
-    top: 40%;
-    left: 10%;
+    top: 52%;
+    left: 9%;
 }
 
 .slider__btn button.next {
-    top: 40%;
-    right: 10%;
+    top: 52%;
+    right: 7%;
 }
 .slider__btn button:hover {
     /* text-shadow: -1px 0 #8545f3, 0 1px #9359f7, 1px 0 #8545f3, 0 -1px #413be1; */
@@ -245,13 +245,13 @@ a{
 }
 
 .slider__btn1 button.prev {
-    top: 73%;
-    left: 10%;
+    top: 92%;
+    left: 9%;
 }
 
 .slider__btn1 button.next {
-    top: 73%;
-    right: 10%;
+    top: 92%;
+    right: 7%;
 }
 .slider__btn1 button:hover {
     /* text-shadow: -1px 0 #8545f3, 0 1px #9359f7, 1px 0 #8545f3, 0 -1px #413be1; */
@@ -304,12 +304,12 @@ a{
 
 .slider__btn2 button.prev {
     top: 1000px;
-    left: 10%;
+    left: 9%;
 }
 
 .slider__btn2 button.next {
     top: 1000px;
-    right: 10%;
+    right: 7%;
 }
 .slider__btn2 button:hover {
     /* text-shadow: -1px 0 #8545f3, 0 1px #9359f7, 1px 0 #8545f3, 0 -1px #413be1; */
@@ -335,3 +335,82 @@ a{
     color: black;
     transition: all 0.5s ease;
 }
+
+/* Footer */
+.footer {
+    position: relative;
+    width: 100%;
+    min-height: 250px;
+    margin-top: 100px;
+    text-align: left;
+    background-color: #222426
+}
+
+.footer .nav {
+    padding: 31px 96px 0 40px;
+}
+
+.footer .nav li {
+    display: inline-block;
+    font-size : 10px;
+}
+
+.footer .nav li:after {
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 12px;
+    margin: 2px 12px 0;
+    background-color: hsla(0,0%,100%,.2)
+}
+
+.footer .nav li:last-child:after {
+    display: none
+}
+
+.footer .nav a {
+    color: rgba(248,249,250,.7);
+    letter-spacing: -.3px
+}
+
+.footer .nav a:hover {
+    color: #07f
+}
+
+.footer .nav .privacy {
+    font-weight: 700
+}
+
+.footer .nav+.nav {
+    padding: 14px 96px 13px 40px
+}
+
+.footer .address {
+    padding: 16px 96px 0 40px;
+    color: rgba(248,249,250,.3);
+    font-size: 11px;
+    line-height: 17px;
+    letter-spacing: -.3px
+}
+
+.footer .address span {
+    white-space: nowrap
+}
+
+.footer .address a {
+    color: rgba(248,249,250,.3);
+    text-decoration: underline
+}
+
+.footer .address a:hover {
+    color: #07f
+}
+
+.footer .copyright {
+    padding: 0 0 0 40px;
+    color: rgba(248,249,250,.3);
+    font-size: 11px;
+    line-height: 18px;
+    letter-spacing: -.3px
+}
+/* Footer 끝 */

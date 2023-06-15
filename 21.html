@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>기출문제</title>
+    <link rel="stylesheet" href="./02.css">
+</head>
+<body>
+    
+    <div class="board_wrap">
+        <div class="board_title">
+            <strong>기출문제(1문제씩)</strong>
+            <form>
+                <select name="change" class="pl" onchange="window.open(this.value);">
+                    <option>선택</option>
+                    <option value="02.html">1과목 : 소프트웨어 설계</option>
+                    <option value="07.html">2과목 : 소프트웨어 개발</option>
+                    <option value="12.html">3과목 : 데이터베이스 구축</option>
+                    <option value="16.html">4과목 : 프로그래밍 언어 활용</option>
+                    <option value="21.html"selected>5과목 : 정보시스템 구축관리</option>
+                </select>
+              </form>
+
+        </div>
+        <div class="board_view_wrap">
+            <div class="board_view">
+                <div class="title">
+                    19번문제:소프트웨어 개발에서 정보보안 3요소에 해당 하지 않는 설명은?
+                </div>
+                
+                <div class="cont">
+                   <button onclick="location.href = '22.html' ">1번</button> 기밀성 : 인가된 사용자에 대해서만 자원 접근이 가능하다.<br><br>
+                   <button onclick="location.href = '22.html' ">2번</button> 무결성 : 인가된 사용자에 대해서만 자원 수정이 가능하며 전송중인 정보는 수정되지 않는다.<br><br>
+                   <button onclick="location.href = '22.html' ">3번</button> 가용성 : 인가된 사용자는 가지고 있는 권한 범위 내에 서 언제든 자원 접근이 가능하다.<br><br>
+                   <button onclick="location.href = '22.html' ">4번</button> 휘발성 : 인가된 사용자가 수행한 데이터는 처리 완료 즉시 폐기 되어야 한다.<br><br><br><br>
+                    <button id="bt01" onclick="location.href = 'answer.html' ">채점</button>
+                </div>
+        
+        <div class="bt_wrap">
+            <a href="20.html" class="on">이전 문제</a>
+            <a href="22.html">다음 문제</a>
+        </div>
+
+        </div>
+    </div>
+</body>
+</html>

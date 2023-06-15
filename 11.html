@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>기출문제</title>
+    <link rel="stylesheet" href="./02.css">
+</head>
+<body>
+    
+    <div class="board_wrap">
+        <div class="board_title">
+            <strong>기출문제(1문제씩)</strong>
+            <form>
+                <select name="change" class="pl" onchange="window.open(this.value);">
+                    <option>선택</option>
+                    <option value="02.html">1과목 : 소프트웨어 설계</option>
+                    <option value="07.html"selected>2과목 : 소프트웨어 개발</option>
+                    <option value="12.html">3과목 : 데이터베이스 구축</option>
+                    <option value="16.html">4과목 : 프로그래밍 언어 활용</option>
+                    <option value="21.html">5과목 : 정보시스템 구축관리</option>
+                </select>
+              </form>
+
+        </div>
+        <div class="board_view_wrap">
+            <div class="board_view">
+                <div class="title">
+                    10번문제:테스트 케이스와 관련한 설명으로 틀린 것은?
+                </div>
+                
+                <div class="cont">
+                   <button onclick="location.href = '12.html' ">1번</button> 테스트의 목표 및 테스트 방법을 결정하기 전에 테스트 케이스를 작성해야 한다.<br><br>
+                   <button onclick="location.href = '12.html' ">2번</button> 프로그램에 결함이 있더라도 입력에 대해 정상적인 결과를 낼 수 있기 때문에 결함을 검사할 수 있는 테스트 케이스를 찾는 것이 중요하다.<br><br>
+                   <button onclick="location.href = '12.html' ">3번</button> 개발된 서비스가 정의된 요구 사항을 준수하는지 확인하기 위한 입력 값과 실행 조건, 예상 결과의 집합으로 볼 수 있다.<br><br>
+                   <button onclick="location.href = '12.html' ">4번</button> 테스트 케이스 실행이 통과되었는지 실패하였는지 판단하기 위한 기준을 테스트 오라클(Test Oracle)이라고 한다.<br><br><br><br>
+                    <button id="bt01" onclick="location.href = 'answer.html' ">채점</button>
+                </div>
+        
+        <div class="bt_wrap">
+            <a href="10.html" class="on">이전 문제</a>
+            <a href="12.html">다음 문제</a>
+        </div>
+
+        </div>
+    </div>
+</body>
+</html>

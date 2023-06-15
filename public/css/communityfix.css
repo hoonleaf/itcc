@@ -63,11 +63,12 @@ a{
 }
 
 .footer .nav {
-    padding: 31px 96px 0 40px
+    padding: 31px 96px 0 40px;
 }
 
 .footer .nav li {
-    display: inline-block
+    display: inline-block;
+    font-size : 10px;
 }
 
 .footer .nav li:after {

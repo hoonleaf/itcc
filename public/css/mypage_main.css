@@ -68,18 +68,19 @@ a{
 .footer {
     position: relative;
     width: 100%;
-    min-height: 200px;
+    min-height: 250px;
     margin-top: 200px;
     text-align: left;
     background-color: #222426
 }
 
 .footer .nav {
-    padding: 31px 96px 0 40px
+    padding: 31px 96px 0 40px;
 }
 
 .footer .nav li {
-    display: inline-block
+    display: inline-block;
+    font-size : 10px;
 }
 
 .footer .nav li:after {

@@ -21,19 +21,13 @@ input{
    font-size: 12px;
 }
 
-button {
-   line-height: 20px;
-   border-radius: 3px;
-   border: 1px solid black;
-   font-size: 12px;
-}
 
 body{
    width: 50%;
    border: 10px solid lightblue;
    border-radius: 30px;
    background-color: white;
-
+   width : auto;
 }
 
 html{
@@ -140,4 +134,5 @@ color: red;
 .num2{
    font-size: 12px;
 }
+
 

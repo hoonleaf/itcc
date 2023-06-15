@@ -27,6 +27,7 @@ div.create{
        border: 10px solid lightblue;
        border-radius: 30px;
        background-color: white;
+       width : auto;
        margin: auto;
     }
     
@@ -133,4 +134,3 @@ div.create{
          font-size: 12px;
       }
       
-    

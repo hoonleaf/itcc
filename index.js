@@ -71,9 +71,9 @@ app.use(bodyParser.urlencoded({extended : true}));
 
 
 const con = mysql.createConnection({
-    host : 'localhost',
-    user : 'root',
-    password : '1234',
+    host : 'cbtuser.crdxng4rto2j.ap-northeast-2.rds.amazonaws.com',
+    user : 'admin',
+    password : 'qwer1234',
     database : 'cbtuser'
 });
 
