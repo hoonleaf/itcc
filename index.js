@@ -34,9 +34,42 @@ app.get('/emailchange2.html', (req, res) => res.sendFile(path.join(__dirname, 'e
 app.get('/memberout.html', (req, res) => res.sendFile(path.join(__dirname, 'memberout.html')));
 app.get('/memberout2.html', (req, res) => res.sendFile(path.join(__dirname, 'memberout2.html')));
 app.get('/memberout3.html', (req, res) => res.sendFile(path.join(__dirname, 'memberout3.html')));
+app.get('/scorecheck.html', (req, res) => res.sendFile(path.join(__dirname, 'scorecheck.html')));
 
 app.get('/cbt.html', (req, res) => res.sendFile(path.join(__dirname, 'cbt.html')));
 app.get('/cbtstart.html', (req, res) => res.sendFile(path.join(__dirname, 'cbtstart.html')));
+app.get('/cbtexam.html', (req, res) => res.sendFile(path.join(__dirname, 'cbtexam.html')));
+app.get('/cbtOMR.html', (req, res) => res.sendFile(path.join(__dirname, 'cbtOMR.html')));
+
+app.get('/cbt2.html', (req, res) => res.sendFile(path.join(__dirname, 'cbt2.html')));
+app.get('/02.html', (req, res) => res.sendFile(path.join(__dirname, '02.html')));
+app.get('/03.html', (req, res) => res.sendFile(path.join(__dirname, '03.html')));
+app.get('/04.html', (req, res) => res.sendFile(path.join(__dirname, '04.html')));
+app.get('/05.html', (req, res) => res.sendFile(path.join(__dirname, '05.html')));
+app.get('/06.html', (req, res) => res.sendFile(path.join(__dirname, '06.html')));
+app.get('/07.html', (req, res) => res.sendFile(path.join(__dirname, '07.html')));
+app.get('/08.html', (req, res) => res.sendFile(path.join(__dirname, '08.html')));
+app.get('/09.html', (req, res) => res.sendFile(path.join(__dirname, '09.html')));
+app.get('/10.html', (req, res) => res.sendFile(path.join(__dirname, '10.html')));
+app.get('/11.html', (req, res) => res.sendFile(path.join(__dirname, '11.html')));
+app.get('/12.html', (req, res) => res.sendFile(path.join(__dirname, '12.html')));
+app.get('/13.html', (req, res) => res.sendFile(path.join(__dirname, '13.html')));
+app.get('/14.html', (req, res) => res.sendFile(path.join(__dirname, '14.html')));
+app.get('/15.html', (req, res) => res.sendFile(path.join(__dirname, '15.html')));
+app.get('/16.html', (req, res) => res.sendFile(path.join(__dirname, '16.html')));
+app.get('/17.html', (req, res) => res.sendFile(path.join(__dirname, '17.html')));
+app.get('/18.html', (req, res) => res.sendFile(path.join(__dirname, '18.html')));
+app.get('/20.html', (req, res) => res.sendFile(path.join(__dirname, '20.html')));
+app.get('/21.html', (req, res) => res.sendFile(path.join(__dirname, '21.html')));
+app.get('/22.html', (req, res) => res.sendFile(path.join(__dirname, '22.html')));
+app.get('/23.html', (req, res) => res.sendFile(path.join(__dirname, '23.html')));
+app.get('/24.html', (req, res) => res.sendFile(path.join(__dirname, '24.html')));
+app.get('/25.html', (req, res) => res.sendFile(path.join(__dirname, '25.html')));
+app.get('/answer.html', (req, res) => res.sendFile(path.join(__dirname, 'answer.html')));
+
+app.get('/ginengsa.html', (req, res) => res.sendFile(path.join(__dirname, 'ginengsa.html')));
+app.get('/sanupgisa.html', (req, res) => res.sendFile(path.join(__dirname, 'sanupgisa.html')));
+app.get('/gisa.html', (req, res) => res.sendFile(path.join(__dirname, 'gisa.html')));
 
 app.get('/loginfix.html', (req, res) => res.sendFile(path.join(__dirname, 'loginfix.html')));
 
@@ -49,6 +82,8 @@ app.get('/communityfix.html', (req, res) => res.sendFile(path.join(__dirname, 'c
 app.get('/fix.html', (req, res) => res.sendFile(path.join(__dirname, 'fix.html')));
 app.get('/view.html', (req, res) => res.sendFile(path.join(__dirname, 'view.html')));
 app.get('/write.html', (req, res) => res.sendFile(path.join(__dirname, 'write.html')));
+
+app.get('/gongjisahang.html', (req, res) => res.sendFile(path.join(__dirname, 'gongjisahang.html')));
 
 app.get('/itstudy.html', (req, res) => res.sendFile(path.join(__dirname, 'itstudy.html')));
 
