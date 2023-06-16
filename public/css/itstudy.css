@@ -54,13 +54,17 @@ a{
 .title {text-align: center; padding: 30px;}
 
 .service .inner{display: flex; margin: 0 auto; padding: 10px;}
-.service .box{width: 300px;  height:100px; margin: 0 auto 0px 30px; padding: 40px; align-items: center; display: flex; background-color: white; border: gainsboro solid 0.5px; }
-.service .box .pic{width: 100px; text-align: left;}
-.service .box .info{padding:20px; padding-left: 50px;}
+.service .box{width: 500px;  height:200px; margin: 0 auto 0px 30px; padding: 40px; align-items: center; display: block; background-color: white;  }
+.service .box .pic{width: 100px; }
+.service .box .info{padding:20px; padding-left: 50px; font-size: 12px;}
 
 .service_title{font:bold; font-size: 20px; text-align: left; font-weight: 900;}
 .info > li > a{font:bold; text-align: left; font-weight: 550;}
 
+.inner .box img{
+    width: 240px;
+    height: 160px;
+}
 
 .board_wrap{
     width: 1150px;
@@ -159,10 +163,7 @@ a{
     width: 10%;
 }
 
-.inner .box img{
-    width: 140px;
-    height: 110px;
-}
+
 
 .slider__btn button {
     position: absolute;
@@ -188,13 +189,13 @@ a{
 }
 
 .slider__btn button.prev {
-    top: 52%;
-    left: 9%;
+    top: 420px;
+    left: 100px;
 }
 
 .slider__btn button.next {
-    top: 52%;
-    right: 7%;
+    top: 420px;
+    right: 100px;
 }
 .slider__btn button:hover {
     /* text-shadow: -1px 0 #8545f3, 0 1px #9359f7, 1px 0 #8545f3, 0 -1px #413be1; */
@@ -213,7 +214,7 @@ a{
     opacity: 0.7;
 }
 .slider__btn button:hover {
-    text-shadow: -1px 0 2px #14D3FF, 0 1px 2px#00AFFF, 1px 0 3px #289AFF, 0 -1px 4px #5AE0FF	;
+    text-shadow: -1px 0 2px #14D3FF, 0 1px 2px#00AFFF, 1px 0 3px #289AFF, 0 -1px 4px #5AE0FF   ;
     border: none;
     box-shadow: inset 0px 0px 10px #288CFF;
     opacity: 1;
@@ -245,13 +246,13 @@ a{
 }
 
 .slider__btn1 button.prev {
-    top: 92%;
-    left: 9%;
+    top: 830px;
+    left: 100px;
 }
 
 .slider__btn1 button.next {
-    top: 92%;
-    right: 7%;
+    top: 830px;
+    right: 100px;
 }
 .slider__btn1 button:hover {
     /* text-shadow: -1px 0 #8545f3, 0 1px #9359f7, 1px 0 #8545f3, 0 -1px #413be1; */
@@ -270,7 +271,7 @@ a{
     opacity: 0.7;
 }
 .slider__btn1 button:hover {
-    text-shadow: -1px 0 2px #14D3FF, 0 1px 2px#00AFFF, 1px 0 3px #289AFF, 0 -1px 4px #5AE0FF	;
+    text-shadow: -1px 0 2px #14D3FF, 0 1px 2px#00AFFF, 1px 0 3px #289AFF, 0 -1px 4px #5AE0FF   ;
     border: none;
     box-shadow: inset 0px 0px 10px #288CFF;
     opacity: 1;
@@ -303,13 +304,13 @@ a{
 }
 
 .slider__btn2 button.prev {
-    top: 1000px;
-    left: 9%;
+    top: 1200px;
+    left: 100px;
 }
 
 .slider__btn2 button.next {
-    top: 1000px;
-    right: 7%;
+    top: 1200px;
+    right: 100px;
 }
 .slider__btn2 button:hover {
     /* text-shadow: -1px 0 #8545f3, 0 1px #9359f7, 1px 0 #8545f3, 0 -1px #413be1; */
@@ -328,7 +329,7 @@ a{
     opacity: 0.7;
 }
 .slider__btn2 button:hover {
-    text-shadow: -1px 0 2px #14D3FF, 0 1px 2px#00AFFF, 1px 0 3px #289AFF, 0 -1px 4px #5AE0FF	;
+    text-shadow: -1px 0 2px #14D3FF, 0 1px 2px#00AFFF, 1px 0 3px #289AFF, 0 -1px 4px #5AE0FF   ;
     border: none;
     box-shadow: inset 0px 0px 10px #288CFF;
     opacity: 1;
