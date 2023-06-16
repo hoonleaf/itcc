@@ -14,6 +14,7 @@ function loginCheck(form){
         form.pwd.focus() ;
         return ;
     }
+
     if(form.id.value == "qwer" && form.pwd.value == "1q2w3e4r"){
         alert('박현우님, 환영합니다!');
         location.href = 'l_mainpage.html';
